@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+const path = require("path");
+const fs = require("fs");
 
 const chirpObjects = [
   {
@@ -24,7 +24,7 @@ const chirpObjects = [
   },
 ];
 
-fs.writeFile('chirps.json', JSON.stringify(chirpObjects), (err) => {
+fs.writeFile("chirps.json", JSON.stringify(chirpObjects), (err) => {
   if (err) {
     console.error(err);
     return;
@@ -32,10 +32,10 @@ fs.writeFile('chirps.json', JSON.stringify(chirpObjects), (err) => {
   console.log("File written successfully");
 });
 
-fs.readFile('chirps.json', 'utf8', (err, data) => {
-    if (err) {
-      console.error(err)
-      return
-    }
-    console.log(data)
-  })
+fs.readFile("chirps.json", "utf8", (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+});
