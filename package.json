@@ -1,0 +1,23 @@
+{
+  "name": "nodejslab",
+  "version": "1.0.0",
+  "description": "Node JS Lab for Covalence, using Reddit /r/popular JSON data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samuelbonner/NodeJSCovalenceLab.git"
+  },
+  "author": "Sam Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelbonner/NodeJSCovalenceLab/issues"
+  },
+  "homepage": "https://github.com/samuelbonner/NodeJSCovalenceLab#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
